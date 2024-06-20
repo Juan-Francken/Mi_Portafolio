@@ -3,20 +3,41 @@
     <head>
         <title>Mi Portafolio</title>
         <link rel="stylesheet" href="style.css"/>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>Juan Francken</h1>
-            <h2> Estudiante</h2>
-        </header>
+        <div class="sidebar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" class="foto">
+            <h2>Juan Francken</h2>
+            <h3 id="ocupacion">Estudiante</h3>
+            <ul>
+                <li> <a href="#acerca_de_mi"> Acerca de mi</a> </li>
+                <li> <a href="#habilidades"> Habilidades</a></li>
+                <li> <a href="#experiencia">Experiencia</a></li>
+                <li> <a href="#proyectos">Proyectos</a></li>
+            </ul>
+            <h3 id="contacto">Contacto y Redes</h3>
+            <ul id="redes">
+                <li><a href="https://github.com/Juan-Francken" class="fa fa-github"></a></li>
+                <li><a href="https://www.instagram.com/jc_francken59/" class="fa fa-instagram"></a></li>
+                <li><a href="https://www.facebook.com/juancarlos.francken/" class="fa fa-facebook"></a></li>
+            </ul>
+            
+
+        </div>
         <main>
-            <section>
-                <h3>Acerca de mi</h3>
-                <p>Soy un estudiante de la facultad de ingenieria de la Universidad nacionla, me encantan los gatos</p>
+            <section id="acerca_de_mi">
+                <h3>Acerca de mi:</h3>
+                <p>Soy un estudiante de la facultad de ingenieria de la Universidad nacionlal, me encantan los gatos</p>
             </section>
-            <section>
-                <h3>Habilidades</h3>
-                <ul>
+            <section id="habilidades">
+                <h3>Habilidades:</h3>
+                <ul id="lenguajes">
                     <li> Java</li>
                     <li> C</li>
                     <li> Assembler</li>
@@ -24,23 +45,14 @@
                     <li> Prolog</li>
                 </ul>
             </section>
-            <section>
-                <h3>Experiencia</h3>
+            <section id="experiencia">
+                <h3>Experiencia:</h3>
                 <p>Progame los proyectos que me dieron en la facultad</p>
             </section>
-            <section>
-                <h3>Proyectos</h3>
+            <section id="proyectos">
+                <h3>Proyectos:</h3>
                 <p>No tengo proyectos para mostrar aun </p>
                 
-            </section>
-            <section>
-                <h3>Contacto</h3>
-                <p>Pon tus datos para contactar</p>
-                <form>
-                    nombre <input name="Nombre" type="text" /> <br />
-                    correo <input name="Correo electronico" type="text" /> <br />
-                    mensaje <input name="mensaje" type="text" /> <br />
-                </form>
             </section>
         </main>
     </body>
